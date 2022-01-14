@@ -29,3 +29,39 @@ main {
 	background-color: white;
 	margin-top: 3px;
 }
+
+section>h2::before {
+	content: '\25BC';
+}
+
+.done::before {
+	content: '\2714';
+}
+
+.not-done::before {
+	content: '\2717';
+}
+
+.tag-editorial::after {
+	content: 'Editorial';
+}
+
+.tag-q1::after {
+	content: 'Q1 Goals';
+}
+
+.tag-recruiting::after {
+	content: 'Recruiting';
+}
+
+.tag-mobile::after {
+	content: 'Mobile';
+}
+
+.tag-website::after {
+	content: 'Website';
+}
+
+.tag-sales::after {
+	content: 'Sales';
+}
