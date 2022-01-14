@@ -3,3 +3,28 @@
 	margin: 0;
 	padding: 0;
 }
+
+body {
+	background-color: #f6f8f9;
+}
+
+header {
+	padding:20px 10px;
+	background-color: white;
+	margin-top: 2px;
+}
+
+header>h1 {
+	display: inline-block;
+	line-height: 50px;
+	vertical-align: top;
+}
+
+main {
+	width: 60%;
+	margin: 40px auto;
+}
+
+.container {
+	background-color: white;
+}
